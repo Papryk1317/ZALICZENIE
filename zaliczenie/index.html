@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pl">
+
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Facebook profile - FB</title>
+
+  </head>
+
+
+  <body>
+
+    <header class="fb-header">
+      <div class="cover">
+        <div class="cover-art"></div>
+
+        <div class="page-row">
+          <div class="page-left">
+          
+            <img class="avatar" src="Fb.png" alt="Fb"/>
+           
+            <div class="title-wrap">
+
+              <h1 class="page-name">Fb</h1>
+              <div class="stats">
+                <span>983 Like</span>
+                <span class="dot">•</span>
+                <span> 73 Followers </span>
+              </div>
+              <div class="facepile">
+                <span class="bubble">T</span>
+                <span class="bubble">T</span>
+                <span class="bubble">T</span>
+                <span class="bubble">T</span>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="page-right">
+
+            <button class="btn primary">Contact</button>
+            <button id="likeBtn" class="btn">Like</button>
+            <button class="btn ghost">Follow</button>
+
+          </div>
+        </div>
+
+        <nav class="tabs">
+          <button class="tab active" data-tab="posts">Posty</button>
+          <button class="tab" data-tab="info">Informacje</button>
+          <button class="tab" data-tab="opinie">Opinie</button>
+          <button class="tab">Zdjęcia</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="fb-content">
+      <aside class="left-col">
+        <section class="card">
+          <h2>O grupie</h2>
+          <p>To strona i grupa Fb jesli chcesz zaczac prace i robic z nami dobra robote zapisz sie do nas </p>
+          <ul class="info-list">
+            <li>🏷️Nazwa: <strong>Fb</strong> </li>
+            <li>📍Adres: Arciszewskiego 82, 76-200 Slupsk </li>
+            <li>tel: +48 111111111</li>
+            <li>✉️E-mail<a href="#">fb@gmail.com</a></li>
+            <li>🔗Link:<a href="#">Fb.com</a></li>
+          </ul>
+          <button class="btn full">Aplikuj</button>
+          <div class="muted small">🟢 Online now</div>
+        </section>
+      </aside>
+
+      <section class="right-col">
+        <div class="tab-panel" id="tab-posts">
+          <article class="card post">
+            <header class="post-head">
+              <div class="post-avatar">FB</src></div>
+              <div>
+                <div class="post-title">Fb</div>
+                <div class="post-meta">Data 🌐</div>
+              </div>
+            </header>
+            <p>
+              Zmieniajmy przyszlosc na lepsze zapraszamy do naszej pracy was wszyskich
+              Odmienmy los tego swiata 
+              Pomóżmy AI sie rozwijac
+              
+            </p>
+            <img class="post-img" src="fb.png" alt="post"/>
+            <footer class="post-actions">
+              <button class="btn ghost">👍 Lubię to</button>
+              <button class="btn ghost">💬 Skomentuj</button>
+              <button class="btn ghost">↗️ Udostępnij</button>
+            </footer>
+          </article>
+        </div>
+
+        <div class="tab-panel hidden" id="tab-info">
+          <section class="card">
+            <h2>Informacje</h2>
+            <p>To nasza praca i zapraszamy ciebie</p>
+          </section>
+        </div>
+
+        <div class="tab-panel hidden" id="tab-opinie">
+          <section class="card">
+            <h2>Opinie</h2>
+            <p>Średnia ocena: 5.1 ⭐ (662 opinii)</p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
